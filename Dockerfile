@@ -1,4 +1,4 @@
-FROM webiny/php7
+FROM webiny/php7:1.0.0
 
 RUN apt-get install sudo && apt-get install vim -y
 
