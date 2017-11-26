@@ -18,7 +18,7 @@ git push
 git push --tags
 
 # Docker Pushing Tags
-docker tag $USERNAME/$IMAGE:$version
+docker tag $USERNAME/$IMAGE:latest $USERNAME/$IMAGE:$version
 
 # Push - Docker Hub
 docker push $USERNAME/$IMAGE:$version

@@ -3,4 +3,4 @@ set -ex
 USERNAME=webiny
 # image name
 IMAGE=php7
-docker build .
+docker build -t $USERNAME/$IMAGE:latest .
