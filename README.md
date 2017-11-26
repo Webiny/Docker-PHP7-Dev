@@ -1,2 +1,5 @@
-# Docker-PHP7-Dev
-Webiny PHP7 Docker Image, suitable for running Webiny Platform in local development environment.
+# PHP7 Docker Image
+
+Docker image with latest Debian based PHP7 (FROM php:7-fpm) and some other useful PHP extensions and tools which enables Webiny development platform to run smoothly. 
+
+This image is more suitable for development purposes since it comes with xDebug and PHPUnit extensions.
