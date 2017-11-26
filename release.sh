@@ -7,7 +7,7 @@ IMAGE=php7
 
 # Increment Version
 docker run --rm -v "$PWD":/app treeder/bump patch
-version=`cat VERSION`
+version=`cat VERSION`-dev
 echo "version: $version"
 
 # Tag/push - GIT
